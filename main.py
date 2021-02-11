@@ -3,7 +3,7 @@ import time
 import os
 
 #Read check values
-file1 = open("rules/age.txt", "r")
+file_age = open("rules/age.txt", "r")
 age_check = int(file1.read())
 file1.close()
 
